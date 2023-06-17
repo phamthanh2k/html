@@ -1,0 +1,76 @@
+/* pc */
+@media(min-width :1024px){
+    
+}
+/* table and mobile  */
+@media (max-width :1024px){
+
+    .btn{
+        padding: 15px 16px;
+        
+    }
+}
+/* table */
+@media (min-width:720px)and (max-width :1024px){
+    
+}
+
+
+/* mobile */
+@media(max-width :720px){
+    .s-full-width,
+    .s-col-full{
+        width: 100%;
+    }
+    .s-mt-16 {
+        margin-top: 8px;
+    }
+    #heder .mobile-menu-btn{
+        display: block;
+    }
+    .search-btn{
+        display: none;
+    }
+    #heder{
+        overflow: hidden;
+    }
+
+    #nav{
+        display: block;
+    }
+    #nav li{
+        display: block;
+    }
+    #nav li:first-child{
+        display: inline-block ;
+    }
+    #nav .subNav{
+        position: initial;
+        background-color: #333;
+    }
+    #nav .subNav a {
+        color: #ffffff;
+        padding: 5 41px;
+        display: block;
+    }
+    
+    #content .menber-item {
+        margin-top: 30px;
+        width: 100%;
+    }
+    #content .menber-img {
+        width: 60%;
+        font-size: 12px;
+    }
+
+
+    .thanh .ux-menu-link a >span:hover {
+        color:rgba(0 0 0 0.2);
+        background-color: rgba(0 0 0 0.2);
+        display: inline;
+        }
+    .contact-from {
+      margin-top: 16px;
+    
+    }
+}

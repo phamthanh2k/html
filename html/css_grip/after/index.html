@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .text-hover {
+        position: relative;
+        font-size: 20px;
+      }
+      .text-hover::after {
+        content: "";
+        bottom: 0;
+        left: 0;
+        right: 0;
+        top: 0;
+        position: absolute;
+        border-bottom: 2px solid #84baea;
+        padding-bottom: 5px;
+        width: 20%;
+        left: 50%;
+        transform: translate(-50%);
+        transition: width 1s ease;
+      }
+      .text-hover:hover::after {
+        width: 100%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <span class="hieu-ung">hieu-ung</span>
+
+    <span class="hieu-ung"> vietnamvodinh </span>
+
+
+    <button></button>
+  </body>
+</html>

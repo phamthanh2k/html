@@ -1,0 +1,220 @@
+// Usage
+@media (max-width: 767px) {
+  $title-mb-post: 31px;
+  $title-mb-xl: 24px;
+  $title-mb-l: 20px;
+  $text-mb-content: 16px;
+  $text--mb-caption: 12px;
+
+  .pd-sec {
+    padding-top: 48px;
+    padding-bottom: 64px;
+  }
+  .heading {
+    font-size: $title-mb-xl;
+    margin-bottom: 48px;
+    svg {
+      width: 36px;
+    }
+  }
+  .custom-container {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+  }
+  .header {
+    padding-left: 0.6rem;
+    &__logo {
+      padding-left: 0px;
+    }
+    &__nav {
+      display: none;
+    }
+    &__contact {
+      display: none;
+    }
+    &__button {
+      display: none;
+    }
+  }
+
+  .section1 {
+    img {
+      background-image: url(../img/2229101_m.png);
+    }
+    &__absolute {
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      width: unset;
+      &--left-bottom {
+        top: 500px;
+        p:nth-child(1) {
+          font-size: $title-mb-xl;
+        }
+        p:nth-child(2) {
+          font-size: $title-mb-l;
+        }
+      }
+      &--verticial-text {
+        justify-content: center;
+        float: none;
+        font-size: $title-mb-xl;
+      }
+      &-textButton {
+        bottom: -50px;
+        span {
+          font-size: $text-mb-content;
+        }
+      }
+    }
+  }
+  .section2 {
+    .row {
+      .col-12:first-child {
+        margin-bottom: 40px;
+      }
+    }
+  }
+  .section3 {
+    &__img {
+      margin: 0 -12px;
+      overflow-x: scroll;
+      flex-wrap: nowrap;
+      .col-12 {
+        max-width: 92%;
+        padding: 0 12px;
+      }
+    }
+  }
+  .section4 {
+    .section__service {
+      grid-gap: 24px;
+      .section__service__step {
+        display: flex;
+        align-items: center;
+        & > div:first-child {
+          order: 2;
+          margin-left: 24px;
+          margin-right: 33px;
+        }
+        & > span:last-child {
+          order: 3;
+          font-size: $text-mb-content;
+          br {
+            display: block;
+          }
+        }
+      }
+      &__rectangle {
+        order: 1;
+        width: 100px;
+        height: 60px;
+        margin-bottom: unset;
+        svg {
+          max-width: 80%;
+          max-height: 80%;
+        }
+      }
+    }
+    &__step {
+      position: relative;
+      left: unset;
+      top: unset;
+      transform: unset;
+      & > span:first-child {
+        font-size: $text-mb-content;
+      }
+      & > span:last-child {
+        font-size: $title-mb-l;
+      }
+    }
+  }
+  .section5 {
+    .row {
+      overflow-x: scroll;
+      flex-wrap: nowrap;
+      margin: 0 -8px;
+      .col-12 {
+        flex-direction: column;
+        padding: 0 8px 88px 8px;
+        display: flex;
+        width: 92%;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+  .section6 {
+    .row {
+      margin: 0 12px;
+      overflow-x: scroll;
+      flex-wrap: nowrap;
+      .col-12 {
+        width: 92%;
+        padding: 0 12px;
+      }
+    }
+  }
+  .section7 {
+    &__form {
+      input {
+        min-width: 100%;
+      }
+    }
+  }
+  .section8 {
+    background-image: url(../img/sec8-bg-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    &__bg {
+      .row {
+        grid-gap: 16px;
+        .col-md-6 {
+          padding: unset;
+        }
+      }
+    }
+    &__button {
+      min-width: 256px;
+    }
+  }
+  .section9 {
+    &__form {
+      max-width: 100%;
+      flex-direction: column;
+      &__title {
+        justify-content: unset;
+        grid-gap: 24px;
+      }
+    }
+    &__text {
+      transform: unset;
+      margin-bottom: 43px;
+    }
+  }
+  .footer {
+    & > .row {
+      grid-gap: 50px;
+      flex-direction: column-reverse;
+    }
+    &__block2 {
+      grid-gap: 32px;
+      & > .col-12 {
+        display: flex;
+        grid-gap: 24px;
+        & > span:first-child {
+          width: 35%;
+        }
+        & > div:last-child {
+          width: 65%;
+        }
+      }
+    }
+    &__group-text {
+      display: flex;
+      grid-gap: 12px;
+    }
+  }
+}
