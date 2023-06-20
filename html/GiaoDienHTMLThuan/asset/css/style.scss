@@ -23,6 +23,7 @@ $unset: unset;
 
 img {
   max-width: 100%;
+  width: -webkit-fill-available;
 }
 // start lop chung
 body {
@@ -318,6 +319,8 @@ body {
       justify-content: center;
       align-items: center;
       margin-bottom: 23px;
+      margin-left: auto;
+      margin-right: auto;
     }
     .col-md-2 {
       padding: 0 24px;
@@ -438,6 +441,8 @@ body {
   position: relative;
   padding-top: 48px;
   padding-bottom: 48px;
+  background-repeat: no-repeat;
+  background-size: cover;
   &__bg {
     padding: 41px 40px;
     position: relative;

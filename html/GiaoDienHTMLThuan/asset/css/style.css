@@ -12038,6 +12038,7 @@ textarea.form-control-lg {
 }
 img {
   max-width: 100%;
+  width: -webkit-fill-available;
 }
 
 body {
@@ -12332,6 +12333,8 @@ body {
   justify-content: center;
   align-items: center;
   margin-bottom: 23px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .section4 .section__service .col-md-2 {
   padding: 0 24px;
@@ -12446,6 +12449,8 @@ body {
   position: relative;
   padding-top: 48px;
   padding-bottom: 48px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .section8__bg {
   padding: 41px 40px;
@@ -12708,7 +12713,7 @@ ul {
     order: 1;
     width: 100px;
     height: 60px;
-    margin-bottom: unset;
+    margin: unset;
   }
   .section4 .section__service__rectangle svg {
     max-width: 80%;
