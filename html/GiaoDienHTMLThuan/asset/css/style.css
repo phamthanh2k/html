@@ -12618,6 +12618,9 @@ ul {
 }
 
 @media (max-width: 767px) {
+  ::-webkit-scrollbar {
+    display: none;
+  }
   .pd-sec {
     padding-top: 48px;
     padding-bottom: 64px;
