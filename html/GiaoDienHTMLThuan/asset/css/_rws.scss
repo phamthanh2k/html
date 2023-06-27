@@ -52,23 +52,13 @@
       width: unset;
       &--left-bottom {
         top: 500px;
-        p:nth-child(1) {
-          font-size: $title-mb-xl;
-        }
-        p:nth-child(2) {
-          font-size: $title-mb-l;
-        }
       }
       &--verticial-text {
         justify-content: center;
         float: none;
-        font-size: $title-mb-xl;
       }
       &-textButton {
         bottom: -50px;
-        span {
-          font-size: $text-mb-content;
-        }
       }
     }
   }

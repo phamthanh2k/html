@@ -1,0 +1,17 @@
+so sánh giữa if else và switch case
++ nên sử dụng if else khi : có sự đúng sai 
+ - có toán tử so sánh 
+ - 2 case thì nên sử dụng
+
++ nên sử dụng switch case 
+ -khi được cho trước các giá trị
+ - khối lượng case nhiều hơn 3  
+
+ ====================
+ array: 
+ key của array là số  
+ cách để lấy 
+
+ ==========================
+ những thư càn học sau 
+ + đệ quy 
